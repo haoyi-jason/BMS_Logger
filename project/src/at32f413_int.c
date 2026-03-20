@@ -33,7 +33,7 @@
 
 /* private includes ----------------------------------------------------------*/
 /* add user code begin private includes */
-
+#include "wk_usart.h"
 /* add user code end private includes */
 
 /* private typedef -----------------------------------------------------------*/
@@ -226,5 +226,12 @@ void USBFS_MAPL_IRQHandler(void)
 }
 
 /* add user code begin 1 */
-
+/**
+  * @brief  USART1 global interrupt handler.
+  *         Delegates to uart1_rx_handler() for receive processing.
+  */
+void USART1_IRQHandler(void)
+{
+  uart1_rx_handler();
+}
 /* add user code end 1 */
