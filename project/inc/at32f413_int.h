@@ -1,4 +1,3 @@
-/* add user code begin Header */
 /**
   **************************************************************************
   * @file     at32f413_int.h
@@ -20,9 +19,7 @@
   * INCLUDING BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY,
   * FITNESS FOR A PARTICULAR PURPOSE, OR NON-INFRINGEMENT.
   *
-  **************************************************************************
-  */
-/* add user code end Header */
+  **************************************************************************/
 
 /* define to prevent recursive inclusion -------------------------------------*/
 #ifndef __AT32F413_INT_H
@@ -66,7 +63,7 @@ void SysTick_Handler(void);
 
 void USBFS_MAPL_IRQHandler(void);
 /* add user code begin exported functions */
-
+void USART1_IRQHandler(void);
 /* add user code end exported functions */
 
 #ifdef __cplusplus
