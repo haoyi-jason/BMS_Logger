@@ -20,8 +20,7 @@
   * INCLUDING BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY,
   * FITNESS FOR A PARTICULAR PURPOSE, OR NON-INFRINGEMENT.
   *
-  **************************************************************************
-  */
+  **************************************************************************/
 /* add user code end Header */
 
 /* define to prevent recursive inclusion -----------------------------------*/
@@ -61,7 +60,9 @@ extern "C" {
   void wk_usart1_init(void);
 
 /* add user code begin exported functions */
-
+void    uart1_rx_handler(void);
+uint8_t uart1_get_packet(uint8_t *buf, uint16_t *len);
+void    uart1_set_baudrate(uint32_t baudrate);
 /* add user code end exported functions */
 
 #ifdef __cplusplus
