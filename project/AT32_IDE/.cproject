@@ -56,6 +56,8 @@
                                     <listOptionValue value="&quot;../../../libraries/cmsis/cm4/core_support/&quot;" builtIn="false"/>
                                     <listOptionValue value="&quot;../../../libraries/cmsis/cm4/device_support/&quot;" builtIn="false"/>
                                     <listOptionValue value="&quot;../../inc&quot;" builtIn="false"/>
+                                    <listOptionValue value="&quot;../../src/bsp&quot;" builtIn="false"/>
+                                    <listOptionValue value="&quot;../../src/app&quot;" builtIn="false"/>
                                     <listOptionValue value="&quot;../../../middlewares/usbd_drivers/inc&quot;" builtIn="false"/>
                                     <listOptionValue value="&quot;../../../middlewares/3rd_party/fatfs/source&quot;" builtIn="false"/>
                                     <listOptionValue value="&quot;../../../middlewares/freertos/source/include&quot;" builtIn="false"/>
@@ -165,6 +167,8 @@
                                     <listOptionValue value="&quot;../../../libraries/cmsis/cm4/core_support/&quot;" builtIn="false"/>
                                     <listOptionValue value="&quot;../../../libraries/cmsis/cm4/device_support/&quot;" builtIn="false"/>
                                     <listOptionValue value="&quot;../../inc&quot;" builtIn="false"/>
+                                    <listOptionValue value="&quot;../../src/bsp&quot;" builtIn="false"/>
+                                    <listOptionValue value="&quot;../../src/app&quot;" builtIn="false"/>
                                     <listOptionValue value="&quot;../../../middlewares/usbd_drivers/inc&quot;" builtIn="false"/>
                                     <listOptionValue value="&quot;../../../middlewares/3rd_party/fatfs/source&quot;" builtIn="false"/>
                                     <listOptionValue value="&quot;../../../middlewares/freertos/source/include&quot;" builtIn="false"/>

@@ -29,6 +29,7 @@
 #include "usb_app.h"
 #include "wk_system.h"
 #include "freertos_app.h"
+#include "bsp_uart.h"
 
 
 /* private includes ----------------------------------------------------------*/
@@ -226,5 +227,19 @@ void USBFS_MAPL_IRQHandler(void)
 }
 
 /* add user code begin 1 */
+
+/**
+  * @brief  USART1 global interrupt handler.
+  *         Services the IDLE-line flag to trigger DMA ring-buffer processing.
+  * @param  none
+  * @retval none
+  */
+void USART1_IRQHandler(void)
+{
+  if(usart_flag_get(USART1, USART_IDLEF_FLAG) != RESET)
+  {
+    bsp_uart_idle_handler();
+  }
+}
 
 /* add user code end 1 */

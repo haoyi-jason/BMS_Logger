@@ -9,6 +9,7 @@
 /* Includes ------------------------------------------------------------------*/
 #include "freertos_app.h"
 #include "usb_app.h"
+#include "app_main.h"
 
 /* private includes ----------------------------------------------------------*/
 /* add user code begin private includes */
@@ -98,6 +99,9 @@ void freertos_task_create(void)
               NULL,
               0,
               &my_task01_handle);
+
+  /* create BMS Logger application tasks */
+  app_tasks_create();
 }
 
 /**

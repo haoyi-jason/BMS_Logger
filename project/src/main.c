@@ -36,6 +36,7 @@
 #include "wk_system.h"
 #include "freertos_app.h"
 #include "fatfs_disk.h"
+#include "app_main.h"
 
 /* private includes ----------------------------------------------------------*/
 /* add user code begin private includes */
@@ -121,6 +122,9 @@ int main(void)
   fatfs_disk_init();
 
   /* add user code begin 2 */
+
+  /* Initialise BMS Logger application modules (before scheduler) */
+  app_main_init();
 
   /* add user code end 2 */
 

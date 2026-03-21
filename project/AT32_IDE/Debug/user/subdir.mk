@@ -20,8 +20,14 @@ D:/SourceRespo/AT32_WS/BMS_Logger/AT32F413RCT7_BMS_Logger/project/src/wk_debug.c
 D:/SourceRespo/AT32_WS/BMS_Logger/AT32F413RCT7_BMS_Logger/project/src/wk_sdio.c \
 D:/SourceRespo/AT32_WS/BMS_Logger/AT32F413RCT7_BMS_Logger/project/src/wk_system.c \
 D:/SourceRespo/AT32_WS/BMS_Logger/AT32F413RCT7_BMS_Logger/project/src/wk_usart.c \
-D:/SourceRespo/AT32_WS/BMS_Logger/AT32F413RCT7_BMS_Logger/project/src/wk_usbfs.c 
-
+D:/SourceRespo/AT32_WS/BMS_Logger/AT32F413RCT7_BMS_Logger/project/src/wk_usbfs.c \
+D:/SourceRespo/AT32_WS/BMS_Logger/AT32F413RCT7_BMS_Logger/project/src/bsp/bsp_uart.c \
+D:/SourceRespo/AT32_WS/BMS_Logger/AT32F413RCT7_BMS_Logger/project/src/bsp/bsp_led.c \
+D:/SourceRespo/AT32_WS/BMS_Logger/AT32F413RCT7_BMS_Logger/project/src/bsp/bsp_rtc.c \
+D:/SourceRespo/AT32_WS/BMS_Logger/AT32F413RCT7_BMS_Logger/project/src/app/uart_logger.c \
+D:/SourceRespo/AT32_WS/BMS_Logger/AT32F413RCT7_BMS_Logger/project/src/app/logger.c \
+D:/SourceRespo/AT32_WS/BMS_Logger/AT32F413RCT7_BMS_Logger/project/src/app/usb_msd.c \
+D:/SourceRespo/AT32_WS/BMS_Logger/AT32F413RCT7_BMS_Logger/project/src/app/app_main.c 
 OBJS += \
 ./user/at32_sdio.o \
 ./user/at32f413_int.o \
@@ -40,7 +46,14 @@ OBJS += \
 ./user/wk_system.o \
 ./user/wk_usart.o \
 ./user/wk_usbfs.o 
-
+ \
+./user/bsp_uart.o \
+./user/bsp_led.o \
+./user/bsp_rtc.o \
+./user/uart_logger.o \
+./user/logger.o \
+./user/usb_msd.o \
+./user/app_main.o 
 C_DEPS += \
 ./user/at32_sdio.d \
 ./user/at32f413_int.d \
@@ -58,7 +71,14 @@ C_DEPS += \
 ./user/wk_sdio.d \
 ./user/wk_system.d \
 ./user/wk_usart.d \
-./user/wk_usbfs.d 
+./user/wk_usbfs.d \
+./user/bsp_uart.d \
+./user/bsp_led.d \
+./user/bsp_rtc.d \
+./user/uart_logger.d \
+./user/logger.d \
+./user/usb_msd.d \
+./user/app_main.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes
