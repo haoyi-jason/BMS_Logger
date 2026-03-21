@@ -112,6 +112,41 @@
             <locationURI>PARENT-1-PROJECT_LOC/src/freertos_app.c</locationURI>
         </link>
         <link>
+            <name>user/bsp_uart.c</name>
+            <type>1</type>
+            <locationURI>PARENT-1-PROJECT_LOC/src/bsp/bsp_uart.c</locationURI>
+        </link>
+        <link>
+            <name>user/bsp_led.c</name>
+            <type>1</type>
+            <locationURI>PARENT-1-PROJECT_LOC/src/bsp/bsp_led.c</locationURI>
+        </link>
+        <link>
+            <name>user/bsp_rtc.c</name>
+            <type>1</type>
+            <locationURI>PARENT-1-PROJECT_LOC/src/bsp/bsp_rtc.c</locationURI>
+        </link>
+        <link>
+            <name>user/uart_logger.c</name>
+            <type>1</type>
+            <locationURI>PARENT-1-PROJECT_LOC/src/app/uart_logger.c</locationURI>
+        </link>
+        <link>
+            <name>user/logger.c</name>
+            <type>1</type>
+            <locationURI>PARENT-1-PROJECT_LOC/src/app/logger.c</locationURI>
+        </link>
+        <link>
+            <name>user/usb_msd.c</name>
+            <type>1</type>
+            <locationURI>PARENT-1-PROJECT_LOC/src/app/usb_msd.c</locationURI>
+        </link>
+        <link>
+            <name>user/app_main.c</name>
+            <type>1</type>
+            <locationURI>PARENT-1-PROJECT_LOC/src/app/app_main.c</locationURI>
+        </link>
+        <link>
             <name>user/wk_acc.c</name>
             <type>1</type>
             <locationURI>PARENT-1-PROJECT_LOC/src/wk_acc.c</locationURI>

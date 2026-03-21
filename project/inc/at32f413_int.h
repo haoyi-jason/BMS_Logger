@@ -66,7 +66,7 @@ void SysTick_Handler(void);
 
 void USBFS_MAPL_IRQHandler(void);
 /* add user code begin exported functions */
-
+void USART1_IRQHandler(void);
 /* add user code end exported functions */
 
 #ifdef __cplusplus
